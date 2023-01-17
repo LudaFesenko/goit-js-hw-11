@@ -15,6 +15,6 @@ export async function fetchImages(searchString, page) {
       safesearch: true,
     },
   });
-  console.log(response.data);
+
   return response.data;
 }
