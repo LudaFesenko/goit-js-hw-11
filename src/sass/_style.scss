@@ -1,3 +1,6 @@
+body {
+  background-color: #e7ebf0;
+}
 img {
   display: block;
 }
@@ -8,6 +11,9 @@ img {
   padding: 16px;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
 .card-img {
   width: 290px;
   height: 60%;
@@ -17,8 +23,12 @@ img {
 .info {
   display: flex;
   gap: 10px;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
+  color: rgb(69, 62, 62);
+}
+.info-item {
+  line-height: 2;
 }
 .search-form {
   background-color: #4747c8;
@@ -26,8 +36,11 @@ img {
   text-align: center;
 }
 .photo-card {
-  border: 1px solid rgb(90, 81, 81);
   height: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+    rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
 }
 .load-more {
   margin: 0 auto;

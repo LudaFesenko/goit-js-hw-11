@@ -77,7 +77,7 @@ loadBtn.addEventListener('click', onLoadMore);
 
 function onLoadMore() {
   if (currentHits > 0 && currentHits >= totalHits) {
-    loadBtn.classList.remove('hidden');
+    loadBtn.classList.add('hidden');
     Notify.failure(
       "We're sorry, but you've reached the end of search results."
     );
